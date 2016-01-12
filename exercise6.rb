@@ -1,1 +1,7 @@
-grocery_list = ["baguette", "butter", "red pepper jelly", "beer"]
+def prompt
+  
+grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice"]
+
+grocery_list.each { |item|
+puts "* #{item}"
+}
