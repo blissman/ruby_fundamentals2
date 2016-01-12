@@ -1,7 +1,9 @@
-def prompt
-  
+def display(array)
+  array.each { |item|
+  puts "* #{item}"
+  }
+end
+
 grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice"]
 
-grocery_list.each { |item|
-puts "* #{item}"
-}
+display(grocery_list)
