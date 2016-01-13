@@ -18,6 +18,9 @@ end
 
 puts "The second item on the list is #{grocery_list[1]}."
 
+puts "The list in alphabetical order:"
 grocery_list_alphabetical = grocery_list.sort
-
 display(grocery_list_alphabetical)
+
+puts "Removing salmon:"
+display(grocery_list_alphabetical - ["salmon"])
