@@ -17,3 +17,7 @@ else
 end
 
 puts "The second item on the list is #{grocery_list[1]}."
+
+grocery_list_alphabetical = grocery_list.sort
+
+display(grocery_list_alphabetical)
