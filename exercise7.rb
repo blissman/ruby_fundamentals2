@@ -25,3 +25,10 @@ students.each {|cohort, num|
 students.each { |cohort, num|
     puts cohort.to_s + ": " + num.to_s + " students"
 }
+
+#Part 6: remove cohort 2 and redisplay
+students.delete(:cohort2)
+puts "Now let's remove cohort 2 . . . "
+students.each { |cohort, num|
+    puts cohort.to_s + ": " + num.to_s + " students"
+}
