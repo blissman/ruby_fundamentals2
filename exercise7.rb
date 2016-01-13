@@ -23,13 +23,13 @@ students.each {|cohort, num|
 }
 #display each value of updated hash
 students.each { |cohort, num|
-    puts cohort.to_s + ": " + num.to_s + " students"
+  puts cohort.to_s + ": " + num.to_s + " students"
 }
 
 #Part 7a: Putting this in here to capture the students from cohort2 that get deleted in Part6
 total = 0
 students.each {|cohort, num|
-total = total + num
+  total = total + num
 }
 
 #Part 6: remove cohort 2 and redisplay
