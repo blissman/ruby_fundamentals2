@@ -26,9 +26,18 @@ students.each { |cohort, num|
     puts cohort.to_s + ": " + num.to_s + " students"
 }
 
+#Part 7a: Putting this in here to capture the students from cohort2 that get deleted in Part6
+total = 0
+students.each {|cohort, num|
+total = total + num
+}
+
 #Part 6: remove cohort 2 and redisplay
 students.delete(:cohort2)
 puts "Now let's remove cohort 2 . . . "
 students.each { |cohort, num|
     puts cohort.to_s + ": " + num.to_s + " students"
 }
+
+#Part 7b: Displaying total over 4 cohorts
+puts "The total number of students over 4 cohorts is: #{total}."
