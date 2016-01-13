@@ -12,3 +12,6 @@ students.each { |cohort, num|
 
 #Part 3: add cohort 4.
 students[:cohort4] = 43
+
+#Part 4: display name of all keys
+puts students.keys
